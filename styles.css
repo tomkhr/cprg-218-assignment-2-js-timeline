@@ -30,6 +30,15 @@ header {
     padding: 0.5rem;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+figcaption {
+    margin: 0 2rem 0 2rem ;
+}
+
 #buttons_sec {
     display: flex;
     flex-direction: column;
@@ -71,12 +80,24 @@ header {
         background-color: #151515;
     }
 
-
-#period_img {
+    img {
+        width: 100%;
         max-width: 600px;
     }
 
 
-    main {
-        display: flex;
+
+    @media screen and (min-width:800px) {
+        #buttons_sec {
+            flex-direction: row;
+        }
+
+        main {
+            flex-direction: row;
+        }
+
+        img {
+            width: auto;
+        }
+        
     }
