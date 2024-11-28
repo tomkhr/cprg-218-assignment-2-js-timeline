@@ -1,3 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Londrina+Solid:wght@100;300;400;900&family=Space+Grotesk:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Climate+Crisis&family=Londrina+Solid:wght@100;300;400;900&family=Space+Grotesk:wght@300..700&display=swap');
+
 body {
-    background-color: aqua;
+ background-color: #151515;
+ color: white;
+ font-family: "Space Grotesk", serif;
+ font-weight: 400;
 }
+
+h1, h2, h3 {
+    font-family: "Climate Crisis", sans-serif;
+    color: #e1ff00;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    font-family: "Space Grotesk", serif;
+    background-color: #151515;
+    color: #afafaf;
+    border: 1px solid #606060;
+    border-radius: 2rem;
+    padding: 5px;
+    margin: 3px;
+    max-width: 400px;
+}
+
+.btn:hover {
+    color: #e1ff00;
+    border: 1px solid #e1ff00;
+    background-color: #3a3e21;
+}
+
+.btn-active {
+    font-family: "Space Grotesk", serif;
+    background-color: #e1ff00;
+    color: #151515;
+    border: 1px solid #e1ff00;
+    border-radius: 2rem;
+    padding: 5px;
+    margin: 3px;
+    max-width: 400px;
+}
+
+    .btn:active {
+        color: #a2b700;
+        border: 1px solid #a2b700;
+        background-color: #151515;
+    }
+
+
+#period_img {
+        max-width: 600px;
+    }
